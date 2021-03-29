@@ -11,18 +11,36 @@
     <!--Content Wrapper-->
     <div class="grid md:grid-cols-3">
       <!--Nav Start-->
-      <div class="md:col-span-1">
-        <nav>
-          <div>
-            <h1 class="sm:font-thin md:font-bold lg:font-extrabold">
+      <div class="md:col-span-1 md:flex md:justify-end">
+        <nav class="text-right">
+          <div class="flex justify-between items-center">
+            <h1
+              class="sm:font-thin md:font-bold uppercase p-4 lg:font-extrabold border-b border-gray-100"
+            >
               <a class="hover:text-gray-400" href="/home">Tailwind</a>
             </h1>
+            <div class="px-4 cursor-pointer md:hidden">
+              <svg
+                class="w-6 h-6"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h16M4 18h16"
+                ></path>
+              </svg>
+            </div>
           </div>
           <ul>
-            <li class="rounded p-1">
+            <li class="py-1 border-red-600 border-r-4 my-1">
               <a href="#"> <span>home</span></a>
               <svg
-                class="w-5 inline-block"
+                class="mx-2 w-5 inline-block"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
@@ -36,11 +54,11 @@
                 />
               </svg>
             </li>
-            <li class="">
+            <li class="py-1">
               <a href="#"
                 ><span>about</span>
                 <svg
-                  class="w-5 inline-block"
+                  class="mx-2 w-5 inline-block"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
@@ -55,11 +73,11 @@
                 </svg>
               </a>
             </li>
-            <li class="rounded-lg border-6">
+            <li class="rounded-lg py-1">
               <a href="#"
                 ><span>Contact</span>
                 <svg
-                  class="w-5 inline-block"
+                  class="mx-2 w-5 inline-block"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
