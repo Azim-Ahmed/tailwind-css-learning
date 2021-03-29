@@ -9,9 +9,9 @@
   </head>
   <body class="text-gray-600 font-body-500">
     <!--Content Wrapper-->
-    <div>
+    <div class="grid md:grid-cols-3">
       <!--Nav Start-->
-      <div>
+      <div class="md:col-span-1">
         <nav>
           <div>
             <h1 class="sm:font-thin md:font-bold lg:font-extrabold">
@@ -32,7 +32,7 @@
         </nav>
       </div>
       <!--Nav End-->
-      <main class="pl-12 px-16 py-6 bg-gray-200">
+      <main class="pl-12 px-16 py-6 bg-gray-200 md:col-span-2">
         <div class="flex md:justify-end justify-center my-1">
           <a
             class="text-primary rounded-xl bg-red-200 justify-center p-3"
@@ -55,18 +55,48 @@
           <h4>Latest Recipes</h4>
           <!--Cards go here-->
 
-          <div class="card">
-            <img
-              src="img/dinner1.png"
-              alt="stew"
-              class="w-full h-32 sm:h-32 object-cover"
-            />
-            <div class="m-4">
-              <span class="font-bold">% bean chilli stew</span>
-              <span class="block text-sm text-gray-500">Recipe by Mario</span>
+          <div class="mt-8 grid lg:grid-cols-3 gap-10">
+            <div class="card">
+              <img
+                src="img/dinner1.png"
+                alt="stew"
+                class="w-full h-32 sm:h-48 object-cover"
+              />
+              <div class="m-4">
+                <span class="font-bold">% bean chilli stew</span>
+                <span class="block text-sm text-gray-500">Recipe by Mario</span>
+              </div>
+              <div class="badge">
+                <span>25 mins</span>
+              </div>
             </div>
-            <div class="badge">
-              <span>25 mins</span>
+            <div class="card">
+              <img
+                src="img/dinner3.png"
+                alt="dinner3"
+                class="w-full h-32 sm:h-48 object-cover"
+              />
+              <div class="m-4">
+                <span class="font-bold">% bean chilli stew</span>
+                <span class="block text-sm text-gray-500">Recipe by Mario</span>
+              </div>
+              <div class="badge">
+                <span>25 mins</span>
+              </div>
+            </div>
+            <div class="card">
+              <img
+                src="img/dinner2.png"
+                alt="dinner2"
+                class="w-full h-32 sm:h-48 object-cover"
+              />
+              <div class="m-4">
+                <span class="font-bold">% bean chilli stew</span>
+                <span class="block text-sm text-gray-500">Recipe by Mario</span>
+              </div>
+              <div class="badge">
+                <span>25 mins</span>
+              </div>
             </div>
           </div>
 
